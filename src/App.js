@@ -12,6 +12,7 @@ import Login from './pages/auth/Login';
 import ForgetPassword from './pages/auth/ForgetPassword';
 import NewPassword from './pages/auth/NewPassword';
 import VerificationCode from './pages/auth/VerificationCode';
+import Home from './components/Home';
 function App() {
   return (
     <BrowserRouter>
@@ -21,6 +22,8 @@ function App() {
      <Route path="/ForgetPassword" element={<ForgetPassword />} />
      <Route path="/VerificationCode" element={<VerificationCode />} />
      <Route path="/NewPassword" element={<NewPassword />} />
+     <Route path="/Home" element={<Home/>} />
+
 
 
      </Routes>

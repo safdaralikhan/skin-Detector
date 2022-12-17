@@ -19,7 +19,7 @@ export default function Login() {
 
                                 {/* <h1>Screen Detection</h1> */}
                                 <img src={logo} width={"180px"} height={"100px"} alt=""></img>
-                                <h3>Login </h3>
+                                {/* <h3>Login </h3> */}
                                 <p>Enter your details below.</p>
                                 <form>
                                     <label className="label25 text-left">Email<span className="text-danger">*</span></label>
