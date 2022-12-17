@@ -128,7 +128,7 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <div className="row justify-content-center mt-3">
+              {/* <div className="row justify-content-center mt-3">
                 <div className="col-md-4">
                   <label
                     htmlFor="status"
@@ -179,14 +179,14 @@ export default function Home() {
               </div>
               <div className="row jutify-content-center text-center ">
                 <div className="col-md-12 mt-4" >
-                  {/* <button type="button" className="btn btn-pills btn-light btn-block px-4 mt-4 text-dark" onClick={UploadApi}>Submit</button> */}
+                  <button type="button" className="btn btn-pills btn-light btn-block px-4 mt-4 text-dark" onClick={UploadApi}>Submit</button>
                   <Button className="mx-4" variant="contained" >Submit</Button>
                   <Button variant="contained">Clear All</Button>
                 </div>
-                {/* <div className="col-md-3 mt-1" style={{ marginLeft: "38%" }}>
-                </div> */}
+                <div className="col-md-3 mt-1" style={{ marginLeft: "38%" }}>
+                </div>
     
-              </div>
+              </div> */}
     
             </div>
           </section>
